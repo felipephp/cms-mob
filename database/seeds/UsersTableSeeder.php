@@ -20,31 +20,31 @@ class UsersTableSeeder extends Seeder
                 [
                     'name' => $faker->name,
                     'email' => $faker->email,
-                    'password' => bcrypt('Elipse#1126'),
+                    'password' => bcrypt(env('DEFAULT_PASS')),
                     'type' => 'system',
                 ],
                 [
                     'name' => $faker->name,
                     'email' => $faker->email,
-                    'password' => bcrypt('Elipse#1126'),
+                    'password' => bcrypt(env('DEFAULT_PASS')),
                     'type' => 'system',
                 ],
                 [
                     'name' => $faker->name,
                     'email' => $faker->email,
-                    'password' => bcrypt('Elipse#1126'),
+                    'password' => bcrypt(env('DEFAULT_PASS')),
                     'type' => 'system',
                 ],
                 [
                     'name' => $faker->name,
                     'email' => $faker->email,
-                    'password' => bcrypt('Elipse#1126'),
+                    'password' => bcrypt(env('DEFAULT_PASS')),
                     'type' => 'system',
                 ],
                 [
                     'name' => 'Pra Viajar',
                     'email' => 'admin@praviajar.com.br',
-                    'password' => bcrypt('@LogPvj1126'),
+                    'password' => bcrypt(env('DEFAULT_PASS')),
                     'type' => 'admin',
                 ]
             )
